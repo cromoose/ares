@@ -105,10 +105,12 @@ endif
 
 # clang settings
 ifeq ($(findstring clang++,$(compiler)),clang++)
-  flags += -fno-operator-names -fno-strict-aliasing -fwrapv -Wno-everything
+  flags += -fno-strict-aliasing -fwrapv -Wno-everything
+  flags.cpp += -fno-operator-names
 # gcc settings
 else ifeq ($(findstring g++,$(compiler)),g++)
-  flags += -fno-operator-names -fno-strict-aliasing -fwrapv -Wno-trigraphs
+  flags += -fno-strict-aliasing -fwrapv -Wno-trigraphs
+  flags.cpp += -fno-operator-names
 endif
 
 # windows settings
