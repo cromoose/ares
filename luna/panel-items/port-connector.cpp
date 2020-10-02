@@ -140,7 +140,7 @@ auto PortConnector::eventActivate() -> void {
       .setText("A directory by this name already exists.")
       .setTitle("Error").setAlignment(program).error();
 
-    //if(directory::create(target)) {
+    //if(directory::create(target))
       if(directory::copy(source, target)) {
         if(auto peripheral = port->allocate(name)) {
           peripheral->setAttribute("location", target);

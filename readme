@@ -1,0 +1,19 @@
+based on the ares emulator (higan, bsnes...) by near (byuu)
+
+to compile, go to lucia/ (simple interface) or luna/ (complex interface) and
+run 'make' ('gmake' on some platforms)
+
+------------------------------------------------------------------------------
+
+full list of components:
+
+angrylion[-plus]: donated n64 rdp
+ares: emulator core
+hiro: gui library (works on top of gtk|qt|win32|cocoa)
+libco: coroutine library
+lucia|luna: user interface for ares
+mia: game importer
+nall: general-purpose c++ library, replaces stl
+ruby: low-level video/audio/input library
+shaders: the gpu is an illusion
+sourcery: resource compiler
