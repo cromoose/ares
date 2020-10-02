@@ -1,0 +1,21 @@
+broken:
+- ui on gtk3 ('import'/etc. button partly out of window)
+- ui on qt5 (buttons smooshed)
+- creation of gamepads
+- mia imports files to the wrong location
+- mia won't import an 'exe' file for ps1, nor will it generate a manifest file for ps1 games
+- ps1 (https://psx.amidog.se/doku.php?id=psx:download:cpu, other links in page)
+- n64
+- https://www.retrowide.com/stuff/byuu_compat.htm (https://github.com/higan-emu/higan/issues/47)
+- faulty settings file can cause crash
+
+enhancements
+- upres
+- integrate mia into luna (not much need for a separate command, and it adds friction)
+- custom rdp
+- gpu accel for 3d? (ugh)
+
+- fuzz?
+ - bml parser
+ - emulators - code/roms
+ - device tree - unusual configuration/combination of devices
