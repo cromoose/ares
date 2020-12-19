@@ -1,4 +1,4 @@
-based on the ares emulator (higan, bsnes...) by near (byuu)
+based on the ares emulator (higan, bsnes...) by near
 
 to compile, go to lucia/ (simple interface) or luna/ (complex interface) and
 run 'make' ('gmake' on some platforms)
